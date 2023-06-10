@@ -209,11 +209,13 @@
 
 <h4 id="2-从终端杀掉进程"><a href="#2-从终端杀掉进程" class="headerlink" title="2. 从终端杀掉进程"></a>2. 从终端杀掉进程</h4><p>打开终端，输入并执行：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">kill</span> <span class="token variable"><span class="token variable">`</span>pgrep SCIM<span class="token variable">`</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<blockquote>
 <p>以上代码中：</p>
 <ul>
 <li>kill：发送一个强制杀死的信号给指定的进程。</li>
 <li><code>pgrep SCIM</code>：查找所有名称为 SCIM 的进程，并返回它们的 PID （进程 ID）。注意这里输入的是<strong>反引号</strong>（&#96;，键盘1左边的那个按键）而不是单引号。</li>
 </ul>
+</blockquote>
 <h4 id="3-预设杀进程脚本"><a href="#3-预设杀进程脚本" class="headerlink" title="3. 预设杀进程脚本"></a>3. 预设杀进程脚本</h4><p>在系统卡死的情况下，输入这串代码也不是那么容易。一种替代的办法是使用工作流app，在卡死时执行预设的这段代码，帮我们省下敲键盘的时间。</p>
 <p>以最常用的Alfred为例，在工作流中新建一个两步的工作流，第一步是键盘输入，名称随便起，但唤起该工作流的关键词越短越好（卡死的时候输入每一个字符都很耗时），我这里设置的是doit：</p>
 <img src="/2023/06/10/%E8%A7%A3%E5%86%B3macOS%E7%9A%84%E9%97%B4%E6%AD%87%E6%80%A7%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98/2.png" class="" title="键盘输入">
@@ -223,17 +225,20 @@
 
 <p>这样，在卡死的时候，唤起Alfred，输入doit即可执行前文杀掉输入法进程的命令，省下一些卡死的时间。</p>
 <h3 id="预设定时杀脚本任务"><a href="#预设定时杀脚本任务" class="headerlink" title="预设定时杀脚本任务"></a>预设定时杀脚本任务</h3><p>以上杀脚本的方法可以临时解决卡死问题，但始终是治标不治本。我们不希望卡死的状态在一些诸如会议的时刻发生。那么可以预设一个定时杀脚本的任务。</p>
+<blockquote>
 <p>macOS执行定期脚本的工具是cron。它可以让用户在指定的时间间隔内执行某个命令或者某些脚本。一个 cron表达式通常由6个或7个用空格或者制表符分隔的时间字段组成，包括秒、分、小时、日期、月份和星期几。例如：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token number">30</span> <span class="token number">5</span> * * * /usr/bin/reboot<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>这个cron表示在每天的凌晨5点30分钟重启计算机。</p>
+</blockquote>
 <p>接下来我们来设置一个定期杀输入法进程的任务。打开终端，输入并执行：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">corntab <span class="token parameter variable">-e</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
+<blockquote>
 <p>这里的<code>-e</code>将执行文字编辑器来设置corn任务。如果你没有设置过环境变量，默认的编辑器是VI。还有其他可执行的命令包括：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">corntab <span class="token parameter variable">-l</span> <span class="token comment">#显示当前的任务列表</span>
 corntab <span class="token parameter variable">-r</span> <span class="token comment">#删除当前的任务列表</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
+</blockquote>
 <p>执行命令后，我们会看到如下提示符：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">□
 ~
