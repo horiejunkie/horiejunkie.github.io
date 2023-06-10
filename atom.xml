@@ -17,18 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>解决macOS中的间歇性卡死问题</title>
-    <link href="https://horiejunkie.github.io/2023/06/10/%E8%A7%A3%E5%86%B3macOS%E4%B8%AD%E7%9A%84%E9%97%B4%E6%AD%87%E6%80%A7%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98/"/>
-    <id>https://horiejunkie.github.io/2023/06/10/%E8%A7%A3%E5%86%B3macOS%E4%B8%AD%E7%9A%84%E9%97%B4%E6%AD%87%E6%80%A7%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98/</id>
+    <title>解决macOS的间歇性卡死问题</title>
+    <link href="https://horiejunkie.github.io/2023/06/10/%E8%A7%A3%E5%86%B3macOS%E7%9A%84%E9%97%B4%E6%AD%87%E6%80%A7%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98/"/>
+    <id>https://horiejunkie.github.io/2023/06/10/%E8%A7%A3%E5%86%B3macOS%E7%9A%84%E9%97%B4%E6%AD%87%E6%80%A7%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98/</id>
     <published>2023-06-10T12:43:44.000Z</published>
     <updated>2023-06-10T16:25:12.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>我使用M1的macbook air，在macOS Venture系统的使用过程中，会间歇性遭遇到系统卡死问题。出现问题时，各app均无法控制、无法输入，鼠标持续呈彩虹圈，但已打开的app（如正在播放的音乐等）仍能正常工作。重启系统后问题解决，但过一段时间（1～2天后）问题又会再度出现。</p><p>经过长时间的搜索，最终确定该问题是由macOS的原生中文输入法导致的。该问题非常隐蔽、很难定位，且仅在体量本来就较小的macOS中文圈才存在。这个问题似乎在很早期版本的macOS就存在并持续至今，但并非会在所有用户的macOS中出现。问题的具体原因仍不清楚。</p><p>接下来给出几种解决该问题的方法。</p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><h3 id="出现问题时，杀掉输入法进程"><a href="#出现问题时，杀掉输入法进程" class="headerlink" title="出现问题时，杀掉输入法进程"></a>出现问题时，杀掉输入法进程</h3><p>处于卡死状态时，打开任务监视器，如下图找到中文输入法进程，点quit关掉它。</p><img src="/2023/06/10/%E8%A7%A3%E5%86%B3macOS%E4%B8%AD%E7%9A%84%E9%97%B4%E6%AD%87%E6%80%A7%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98/1.png" class="" title="杀死中文输入法进程"><h3 id=""><a href="#" class="headerlink" title=""></a></h3><h2 id="鸣谢"><a href="#鸣谢" class="headerlink" title="鸣谢"></a>鸣谢</h2>]]></content>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我使用M1的macbook air，在macOS Venture系统的使用过程中，会间歇性遭遇到系统卡死问题。出现问题时，各app均无法控制、无法输入，鼠标持续呈彩虹圈，但已打开的app（如正在播放的音乐等）仍能正常工作。重启系统后问题解决，但过一段时间（1～2天后）问题又会再度出现。</p><p>经过长时间的搜索，最终确定该问题是由macOS的原生中文输入法导致的。该问题非常隐蔽、很难定位，且仅在体量本来就较小的macOS中文圈才存在。这个问题似乎在很早期版本的macOS就存在并持续至今，但并非会在所有用户的macOS中出现。问题的具体原因仍不清楚。</p><p>接下来给出几种解决该问题的方法。</p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><h3 id="出现问题时，杀掉输入法进程"><a href="#出现问题时，杀掉输入法进程" class="headerlink" title="出现问题时，杀掉输入法进程"></a>出现问题时，杀掉输入法进程</h3><p>处于卡死状态时，打开任务监视器，如下图找到中文输入法进程，点quit关掉它。</p><img src="/2023/06/10/%E8%A7%A3%E5%86%B3macOS%E7%9A%84%E9%97%B4%E6%AD%87%E6%80%A7%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98/1.png" class="" title="杀死中文输入法进程"><h3 id=""><a href="#" class="headerlink" title=""></a></h3><h2 id="鸣谢"><a href="#鸣谢" class="headerlink" title="鸣谢"></a>鸣谢</h2>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h2&gt;&lt;p&gt;我使用M1的macbook air，在macOS Venture系统的使用过程中，会间歇性遭遇到系统卡死问题。出现问题时，各</summary>
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;我使用M1的macbook air，在macOS Venture系统的使用过程中，会间歇性遭遇到系统卡死问题。出现问题时，各app均无法控制</summary>
       
     
     
@@ -45,9 +45,9 @@
     <link href="https://horiejunkie.github.io/2023/06/10/My%20First%20Blog!/"/>
     <id>https://horiejunkie.github.io/2023/06/10/My%20First%20Blog!/</id>
     <published>2023-06-10T06:53:29.000Z</published>
-    <updated>2023-06-10T12:43:10.592Z</updated>
+    <updated>2023-06-10T16:31:19.715Z</updated>
     
-    <content type="html"><![CDATA[<p>Hello, world!</p><p>This is my first blog! I quite spent some time on it. I’m a extremely beginner of coding work and I hope such time on my blog become kind of hobby in my spare time.</p><p>Thanks for detailed tutorials on building the github-based blog in the Internet. I hope I will make an more updated one based on these brilliant work. And thanks for <a href="https://github.com/adisaktijrs/hexo-theme-minima">adisaktijrs’s nice theme</a> which I am using on this page. This is my favorite one among Hexo Theme’s page.</p><p>How about let’s start with it!</p>]]></content>
+    <content type="html"><![CDATA[<p>Hello, world!</p><p>This is my first blog! I quite spent some time on it. I’m a extremely beginner of coding work and I hope such time on my blog become kind of hobby in my spare time.</p><p>Thanks for detailed tutorials on building the github-based blog in the Internet. I hope I could make a more updated guide based on these brilliant work in the near future. And thanks for <a href="https://github.com/adisaktijrs/hexo-theme-minima">adisaktijrs’s nice theme</a> which I am using on this page. This is my favorite one among Hexo Theme’s page.</p><p>How about let’s start with it!</p>]]></content>
     
     
       
