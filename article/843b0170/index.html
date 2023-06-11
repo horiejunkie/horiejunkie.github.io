@@ -199,7 +199,7 @@
 
         <div class="trans">
             <h2>My First Blog!</h2>
-  <p>Updated: Jun 11, 2023<br>Date: Jun 10, 2023<br>Tags: </p>
+  <p>Updated: Jun 11, 2023<br>Released: Jun 10, 2023<br>Tags: </p>
 
   <p>Hello, world!</p>
 <p>This is my first blog! I quite spent some time on it. I’m a extremely beginner of coding work and I hope such time on my blog become kind of hobby in my spare time.</p>
@@ -208,6 +208,38 @@
 
 
   
+  <hr>
+<section id="comments" class="mt-2 mb-3">
+
+  <div id="disqus_thread">
+    <a href="#" class="button button-primary" onclick="loadDisqus();return false;">View / Make Comments</a>
+  </div>
+
+  <script>
+    var disqus_config = function() {
+      this.page.url = 'https://horiejunkie.github.io/article/843b0170/index.html';
+      this.page.identifier = 'article/843b0170/index.html';
+      this.page.title = 'My First Blog!';
+    };
+
+    var is_disqus_loaded = false;
+
+    function loadDisqus() {
+      if (!is_disqus_loaded) {
+        is_disqus_loaded = true;
+
+        var d = document,
+          s = d.createElement('script');
+        s.src = 'https://horiejunkie.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      }
+    }
+
+  </script>
+  <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
 
 
         </div>
