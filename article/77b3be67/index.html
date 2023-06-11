@@ -17,7 +17,7 @@
   
   <link rel="canonical" href="https://horiejunkie.github.io/article/77b3be67/">
   
-  <meta name="description" content="1. 前言 2. 解决方法 2.1. 出现卡死时，杀掉输入法进程      1. 前言我使用M1 macbook air，系统为macOS Venture，使用过程中，会间歇性遭遇到系统卡死问题。出现问题时，各app均无法控制，键盘输入卡顿显著，鼠标持续呈彩虹圈，但已打开的app（如正在播放的音乐等">
+  <meta name="description" content="1. 前言我使用M1 macbook air，系统为macOS Venture，使用过程中，会间歇性遭遇到系统卡死问题。出现问题时，各app均无法控制，键盘输入卡顿显著，鼠标持续呈彩虹圈，但已打开的app（如正在播放的音乐等）仍能正常工作。重启系统后问题解决，但过一段时间（1～2天后）问题又会再度出">
   
   
   <meta name="author" content="John Doe">
@@ -28,14 +28,14 @@
   <meta property="og:type" content="article" />
   <meta property="og:title" content="解决macOS的间歇性卡死问题" />
   
-  <meta property="og:description" content="1. 前言 2. 解决方法 2.1. 出现卡死时，杀掉输入法进程      1. 前言我使用M1 macbook air，系统为macOS Venture，使用过程中，会间歇性遭遇到系统卡死问题。出现问题时，各app均无法控制，键盘输入卡顿显著，鼠标持续呈彩虹圈，但已打开的app（如正在播放的音乐等">
+  <meta property="og:description" content="1. 前言我使用M1 macbook air，系统为macOS Venture，使用过程中，会间歇性遭遇到系统卡死问题。出现问题时，各app均无法控制，键盘输入卡顿显著，鼠标持续呈彩虹圈，但已打开的app（如正在播放的音乐等）仍能正常工作。重启系统后问题解决，但过一段时间（1～2天后）问题又会再度出">
   
   <meta property="og:url" content="https://horiejunkie.github.io/article/77b3be67/" />
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="解决macOS的间歇性卡死问题">
   
-  <meta name="twitter:description" content="1. 前言 2. 解决方法 2.1. 出现卡死时，杀掉输入法进程      1. 前言我使用M1 macbook air，系统为macOS Venture，使用过程中，会间歇性遭遇到系统卡死问题。出现问题时，各app均无法控制，键盘输入卡顿显著，鼠标持续呈彩虹圈，但已打开的app（如正在播放的音乐等">
+  <meta name="twitter:description" content="1. 前言我使用M1 macbook air，系统为macOS Venture，使用过程中，会间歇性遭遇到系统卡死问题。出现问题时，各app均无法控制，键盘输入卡顿显著，鼠标持续呈彩虹圈，但已打开的app（如正在播放的音乐等）仍能正常工作。重启系统后问题解决，但过一段时间（1～2天后）问题又会再度出">
   
   
   
@@ -201,18 +201,7 @@
             <h2>解决macOS的间歇性卡死问题</h2>
   <p>Updated: Jun 12, 2023<br>Released: Jun 10, 2023<br>Tags: <a class="classtest-link" href="/tags/macOS/" rel="tag">macOS</a></p>
 
-  <!-- toc -->
-
-<ul>
-<li><a href="#1---">1. 前言</a></li>
-<li><a href="#2-----">2. 解决方法</a><ul>
-<li><a href="#21--------------">2.1. 出现卡死时，杀掉输入法进程</a></li>
-</ul>
-</li>
-</ul>
-<!-- tocstop -->
-
-<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>我使用M1 macbook air，系统为macOS Venture，使用过程中，会间歇性遭遇到系统卡死问题。出现问题时，各app均无法控制，键盘输入卡顿显著，鼠标持续呈彩虹圈，但已打开的app（如正在播放的音乐等）仍能正常工作。重启系统后问题解决，但过一段时间（1～2天后）问题又会再度出现。</p>
+  <h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>我使用M1 macbook air，系统为macOS Venture，使用过程中，会间歇性遭遇到系统卡死问题。出现问题时，各app均无法控制，键盘输入卡顿显著，鼠标持续呈彩虹圈，但已打开的app（如正在播放的音乐等）仍能正常工作。重启系统后问题解决，但过一段时间（1～2天后）问题又会再度出现。</p>
 <p>经过长时间的搜索，最终确定该问题是由macOS的原生中文输入法导致的。该问题隐蔽又难以定位，且仅在体量本来就较小的macOS中文圈才存在。这个问题似乎在很早期版本的macOS就存在并持续至今，但并非会在所有用户的macOS中出现。问题的具体原因仍不清楚。</p>
 <p>接下来给出几种解决该问题的方法。</p>
 <h2 id="2-解决方法"><a href="#2-解决方法" class="headerlink" title="2. 解决方法"></a>2. 解决方法</h2><h3 id="2-1-出现卡死时，杀掉输入法进程"><a href="#2-1-出现卡死时，杀掉输入法进程" class="headerlink" title="2.1. 出现卡死时，杀掉输入法进程"></a>2.1. 出现卡死时，杀掉输入法进程</h3><p>处于卡死状态时，杀掉输入法进程即可让系统恢复常态。有以下几种选择：</p>
