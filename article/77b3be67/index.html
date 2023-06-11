@@ -15,7 +15,7 @@
   
   <link rel="sitemap" href="https://horiejunkie.github.iositemap.xml" />
   
-  <link rel="canonical" href="https://horiejunkie.github.io/2023/06/10/%E8%A7%A3%E5%86%B3macOS%E7%9A%84%E9%97%B4%E6%AD%87%E6%80%A7%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98/">
+  <link rel="canonical" href="https://horiejunkie.github.io/article/77b3be67/">
   
   <meta name="description" content="前言我使用M1 macbook air，系统为macOS Venture，使用过程中，会间歇性遭遇到系统卡死问题。出现问题时，各app均无法控制，键盘输入卡顿显著，鼠标持续呈彩虹圈，但已打开的app（如正在播放的音乐等）仍能正常工作。重启系统后问题解决，但过一段时间（1～2天后）问题又会再度出现。 ">
   
@@ -30,7 +30,7 @@
   
   <meta property="og:description" content="前言我使用M1 macbook air，系统为macOS Venture，使用过程中，会间歇性遭遇到系统卡死问题。出现问题时，各app均无法控制，键盘输入卡顿显著，鼠标持续呈彩虹圈，但已打开的app（如正在播放的音乐等）仍能正常工作。重启系统后问题解决，但过一段时间（1～2天后）问题又会再度出现。 ">
   
-  <meta property="og:url" content="https://horiejunkie.github.io/2023/06/10/%E8%A7%A3%E5%86%B3macOS%E7%9A%84%E9%97%B4%E6%AD%87%E6%80%A7%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98/" />
+  <meta property="og:url" content="https://horiejunkie.github.io/article/77b3be67/" />
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="解决macOS的间歇性卡死问题">
@@ -40,7 +40,7 @@
   
   
   
-  <meta name="twitter:url" content="https://horiejunkie.github.io/2023/06/10/%E8%A7%A3%E5%86%B3macOS%E7%9A%84%E9%97%B4%E6%AD%87%E6%80%A7%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98/" />
+  <meta name="twitter:url" content="https://horiejunkie.github.io/article/77b3be67/" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -205,7 +205,7 @@
 <p>接下来给出几种解决该问题的方法。</p>
 <h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><h3 id="出现卡死时，杀掉输入法进程"><a href="#出现卡死时，杀掉输入法进程" class="headerlink" title="出现卡死时，杀掉输入法进程"></a>出现卡死时，杀掉输入法进程</h3><p>处于卡死状态时，杀掉输入法进程即可让系统恢复常态。有以下几种选择：</p>
 <h4 id="1-从任务监视器杀掉进程"><a href="#1-从任务监视器杀掉进程" class="headerlink" title="1. 从任务监视器杀掉进程"></a>1. 从任务监视器杀掉进程</h4><p>打开任务监视器，如下图找到中文输入法进程，点quit关掉它。</p>
-<img src="/2023/06/10/%E8%A7%A3%E5%86%B3macOS%E7%9A%84%E9%97%B4%E6%AD%87%E6%80%A7%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98/1.png" class="" title="杀死中文输入法进程">
+<img src="/article/77b3be67/1.png" class="" title="杀死中文输入法进程">
 
 <h4 id="2-从终端杀掉进程"><a href="#2-从终端杀掉进程" class="headerlink" title="2. 从终端杀掉进程"></a>2. 从终端杀掉进程</h4><p>打开终端，输入并执行：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">kill</span> <span class="token variable"><span class="token variable">`</span>pgrep SCIM<span class="token variable">`</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
@@ -218,10 +218,10 @@
 </blockquote>
 <h4 id="3-预设杀进程脚本"><a href="#3-预设杀进程脚本" class="headerlink" title="3. 预设杀进程脚本"></a>3. 预设杀进程脚本</h4><p>在系统卡死的情况下，输入这串代码也不是那么容易。一种替代的办法是使用工作流app，在卡死时执行预设的这段代码，帮我们省下敲键盘的时间。</p>
 <p>以最常用的Alfred为例，在工作流中新建一个两步的工作流，第一步是键盘输入，名称随便起，但唤起该工作流的关键词越短越好（卡死的时候输入每一个字符都很耗时），我这里设置的是doit：</p>
-<img src="/2023/06/10/%E8%A7%A3%E5%86%B3macOS%E7%9A%84%E9%97%B4%E6%AD%87%E6%80%A7%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98/2.png" class="" title="键盘输入">
+<img src="/article/77b3be67/2.png" class="" title="键盘输入">
 
 <p>第二步是执行脚本，按下图设置：</p>
-<img src="/2023/06/10/%E8%A7%A3%E5%86%B3macOS%E7%9A%84%E9%97%B4%E6%AD%87%E6%80%A7%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98/3.png" class="" title="执行脚本">
+<img src="/article/77b3be67/3.png" class="" title="执行脚本">
 
 <p>这样，在卡死的时候，唤起Alfred，输入doit即可执行前文杀掉输入法进程的命令，省下一些卡死的时间。</p>
 <h3 id="预设定时杀脚本任务"><a href="#预设定时杀脚本任务" class="headerlink" title="预设定时杀脚本任务"></a>预设定时杀脚本任务</h3><p>以上杀脚本的方法可以临时解决卡死问题，但始终是治标不治本。我们不希望卡死的状态在一些诸如会议的时刻发生。那么可以预设一个定时杀脚本的任务。</p>
