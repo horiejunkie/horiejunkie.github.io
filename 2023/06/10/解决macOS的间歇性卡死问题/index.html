@@ -264,8 +264,12 @@ corntab <span class="token parameter variable">-r</span> <span class="token comm
 <p>执行后会从cron文件中退出。再次输入：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">corntab <span class="token parameter variable">-l</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p>如果设置成功的话，我们会看到刚刚设置的定时任务。输入法卡死的问题也就此解决了。</p>
-<h3 id="其他可能有效的方法"><a href="#其他可能有效的方法" class="headerlink" title="其他可能有效的方法"></a>其他可能有效的方法</h3><h2 id="鸣谢"><a href="#鸣谢" class="headerlink" title="鸣谢"></a>鸣谢</h2>
+<p>如果设置成功的话，我们会看到刚刚设置的定时任务。定时杀死输入法进程的任务也就设置好了。但经测试，进程卡死的发生存在随机性，这种方法也不能完全根除这个问题。</p>
+<h3 id="其他可能有效的方法"><a href="#其他可能有效的方法" class="headerlink" title="其他可能有效的方法"></a>其他可能有效的方法</h3><p>最简单有效的方法是不使用macOS原生的中文输入法。但因为一个bug而弃用整个输入法未免有些因噎废食。</p>
+<p><a target="_blank" rel="noopener" href="https://medium.com/@tobemaster/%E8%A7%A3%E5%86%B3-mac-%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95%E5%8D%A1%E9%A1%BF-4a8ab8a30415">这篇文章</a>给出了一系列调整可能导致该问题的设置的方法，包括节电模式、自定义短语、Chrome等，但这些问题在我的macOS上并不存在，也许会对一部分用户起作用，可以尝试。</p>
+<p>bilibili的<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1h24y1r7YK">这个视频</a>表示关闭<code>Capslock</code>的中英切换可以解决问题，评论也表示关闭“触控栏输入建议”也可以解决问题。我不希望关闭<code>Capslock</code>的切换功能。各位也可以尝试一下。</p>
+<h2 id="鸣谢"><a href="#鸣谢" class="headerlink" title="鸣谢"></a>鸣谢</h2><p>最初找到这个问题的原因是在V2EX的<a target="_blank" rel="noopener" href="https://www.v2ex.com/t/898744">这个帖子</a>，并根据简书上的<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/ec2729d485a8">这篇文章</a>设置了杀进程的任务。感谢文章中提及的所有内容贡献者，希望这个bug早日得到修复。</p>
+
   <p><a class="classtest-link" href="/tags/macOS/" rel="tag">macOS</a> — Jun 10, 2023</p>
   
 
