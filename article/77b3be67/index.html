@@ -199,7 +199,7 @@
 
         <div class="trans">
             <h2>解决macOS的间歇性卡死问题</h2>
-  <p>Updated: Jun 12, 2023<br>Released: Jun 10, 2023<br>Tags: <a class="classtest-link" href="/tags/macOS/" rel="tag">macOS</a></p>
+  <p>Updated: Jun 17, 2023<br>Released: Jun 10, 2023<br>Tags: <a class="classtest-link" href="/tags/macOS/" rel="tag">macOS</a></p>
 
   <h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>我使用M1 macbook air，系统为macOS Venture，使用过程中，会间歇性遭遇到系统卡死问题。出现问题时，各app均无法控制，键盘输入卡顿显著，鼠标持续呈彩虹圈，但已打开的app（如正在播放的音乐等）仍能正常工作。重启系统后问题解决，但过一段时间（1～2天后）问题又会再度出现。</p>
 <p>经过长时间的搜索，最终确定该问题是由macOS的原生中文输入法导致的。该问题隐蔽又难以定位，且仅在体量本来就较小的macOS中文圈才存在。这个问题似乎在很早期版本的macOS就存在并持续至今，但并非会在所有用户的macOS中出现。问题的具体原因仍不清楚。</p>
@@ -233,12 +233,12 @@
 <p>这个cron表示在每天的凌晨5点30分钟重启计算机。</p>
 </blockquote>
 <p>接下来我们来设置一个定期杀输入法进程的任务。打开终端，输入并执行：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">corntab <span class="token parameter variable">-e</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">crontab</span> <span class="token parameter variable">-e</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <blockquote>
-<p>这里的<code>-e</code>将执行文字编辑器来设置corn任务。如果你没有设置过环境变量，默认的编辑器是VI。还有其他可执行的命令包括：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">corntab <span class="token parameter variable">-l</span> <span class="token comment">#显示当前的任务列表</span>
-corntab <span class="token parameter variable">-r</span> <span class="token comment">#删除当前的任务列表</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>这里的<code>-e</code>将执行文字编辑器来设置cron任务。如果你没有设置过环境变量，默认的编辑器是VI。还有其他可执行的命令包括：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">crontab</span> <span class="token parameter variable">-l</span> <span class="token comment">#显示当前的任务列表</span>
+<span class="token function">crontab</span> <span class="token parameter variable">-r</span> <span class="token comment">#删除当前的任务列表</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 </blockquote>
 <p>执行命令后，我们会看到如下提示符：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">□
@@ -263,7 +263,7 @@ corntab <span class="token parameter variable">-r</span> <span class="token comm
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">:wq<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>执行后会从cron文件中退出。再次输入：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">corntab <span class="token parameter variable">-l</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">crontab</span> <span class="token parameter variable">-l</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>如果设置成功的话，我们会看到刚刚设置的定时任务。定时杀死输入法进程的任务也就设置好了。但经测试，进程卡死的发生存在随机性，这种方法也不能完全根除这个问题。</p>
 <h3 id="2-3-其他可能有效的方法"><a href="#2-3-其他可能有效的方法" class="headerlink" title="2.3. 其他可能有效的方法"></a>2.3. 其他可能有效的方法</h3><p>最简单有效的方法是不使用macOS原生的中文输入法。但因为一个bug而弃用整个输入法未免有些因噎废食。</p>
