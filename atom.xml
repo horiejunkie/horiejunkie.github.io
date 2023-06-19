@@ -41,11 +41,11 @@
   </entry>
   
   <entry>
-    <title>My First Blog!</title>
+    <title>My first blog!</title>
     <link href="https://horiejunkie.github.io/article/843b0170/"/>
     <id>https://horiejunkie.github.io/article/843b0170/</id>
     <published>2023-06-10T06:53:29.000Z</published>
-    <updated>2023-06-11T15:00:43.304Z</updated>
+    <updated>2023-06-19T07:58:40.100Z</updated>
     
     <content type="html"><![CDATA[<p>Hello, world!</p><p>This is my first blog! I quite spent some time on it. I’m a extremely beginner of coding work and I hope such time on my blog become kind of hobby in my spare time.</p><p>Thanks for detailed tutorials on building the github-based blog in the Internet. I hope I could make a more updated guide based on these brilliant work in the near future. And thanks for <a href="https://github.com/adisaktijrs/hexo-theme-minima">adisaktijrs’s nice theme</a> which I am using on this page. This is my favorite one among Hexo Theme’s page.</p><p>How about let’s start with it!</p>]]></content>
     
@@ -58,6 +58,8 @@
     
     
     
+    
+    <category term="Mon Jun 19 2023 15:58:03 GMT+0800 (China Standard Time)" scheme="https://horiejunkie.github.io/tags/Mon-Jun-19-2023-15-58-03-GMT-0800-China-Standard-Time/"/>
     
   </entry>
   
