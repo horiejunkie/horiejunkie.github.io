@@ -74,13 +74,6 @@
 
   
   <url>
-    <loc>https://horiejunkie.github.io/tags/Japanese/</loc>
-    <lastmod>2023-07-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://horiejunkie.github.io/tags/macOS/</loc>
     <lastmod>2023-07-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -89,6 +82,13 @@
   
   <url>
     <loc>https://horiejunkie.github.io/tags/PhD/</loc>
+    <lastmod>2023-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://horiejunkie.github.io/tags/Japanese/</loc>
     <lastmod>2023-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -104,14 +104,14 @@
   </url>
   
   <url>
-    <loc>https://horiejunkie.github.io/categories/study/</loc>
+    <loc>https://horiejunkie.github.io/categories/life/</loc>
     <lastmod>2023-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://horiejunkie.github.io/categories/life/</loc>
+    <loc>https://horiejunkie.github.io/categories/study/</loc>
     <lastmod>2023-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
