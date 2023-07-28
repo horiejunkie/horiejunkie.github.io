@@ -104,7 +104,14 @@
   </url>
   
   <url>
-    <loc>https://horiejunkie.github.io/tags/mathematics-finance/</loc>
+    <loc>https://horiejunkie.github.io/tags/mathematics/</loc>
+    <lastmod>2023-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://horiejunkie.github.io/tags/finance/</loc>
     <lastmod>2023-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -134,7 +141,7 @@
   </url>
   
   <url>
-    <loc>https://horiejunkie.github.io/categories/life-study/</loc>
+    <loc>https://horiejunkie.github.io/categories/life/study/</loc>
     <lastmod>2023-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
