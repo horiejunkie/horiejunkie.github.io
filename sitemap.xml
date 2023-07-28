@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://horiejunkie.github.io/article/25994/</loc>
+    <loc>https://horiejunkie.github.io/tags/index.html</loc>
+    
+    <lastmod>2023-07-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://horiejunkie.github.io/article/77b3be67/</loc>
+    
+    <lastmod>2023-07-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://horiejunkie.github.io/About/index.html</loc>
     
     <lastmod>2023-07-28</lastmod>
     
@@ -20,27 +38,18 @@
   </url>
   
   <url>
-    <loc>https://horiejunkie.github.io/About/index.html</loc>
-    
-    <lastmod>2023-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://horiejunkie.github.io/article/1117/</loc>
     
-    <lastmod>2023-07-26</lastmod>
+    <lastmod>2023-07-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://horiejunkie.github.io/article/77b3be67/</loc>
+    <loc>https://horiejunkie.github.io/article/25994/</loc>
     
-    <lastmod>2023-07-18</lastmod>
+    <lastmod>2023-07-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -50,15 +59,6 @@
     <loc>https://horiejunkie.github.io/article/843b0170/</loc>
     
     <lastmod>2023-06-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://horiejunkie.github.io/Works/index.html</loc>
-    
-    <lastmod>2023-06-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -83,6 +83,20 @@
 
   
   <url>
+    <loc>https://horiejunkie.github.io/tags/life/</loc>
+    <lastmod>2023-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://horiejunkie.github.io/tags/technology/</loc>
+    <lastmod>2023-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://horiejunkie.github.io/tags/macOS/</loc>
     <lastmod>2023-07-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -90,7 +104,14 @@
   </url>
   
   <url>
-    <loc>https://horiejunkie.github.io/tags/PhD/</loc>
+    <loc>https://horiejunkie.github.io/tags/study/</loc>
+    <lastmod>2023-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://horiejunkie.github.io/tags/Japanese/</loc>
     <lastmod>2023-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -111,33 +132,12 @@
   </url>
   
   <url>
-    <loc>https://horiejunkie.github.io/tags/Japanese/</loc>
+    <loc>https://horiejunkie.github.io/tags/PhD/</loc>
     <lastmod>2023-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
 
-  
-  <url>
-    <loc>https://horiejunkie.github.io/categories/technology/</loc>
-    <lastmod>2023-07-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://horiejunkie.github.io/categories/life/</loc>
-    <lastmod>2023-07-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://horiejunkie.github.io/categories/study/</loc>
-    <lastmod>2023-07-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
 </urlset>

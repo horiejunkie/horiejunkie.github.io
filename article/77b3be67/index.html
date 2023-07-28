@@ -11,7 +11,7 @@
   <meta charset="utf-8">
 
   
-  <title>解决macOS的间歇性卡死问题</title>
+  <title>解决macOS的间歇性卡死/彩虹圈问题</title>
   
   <link rel="sitemap" href="https://horiejunkie.github.iositemap.xml" />
   
@@ -26,14 +26,14 @@
   
   <meta property="og:site_name" content="ShiiNashi&#39;s blog" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="解决macOS的间歇性卡死问题" />
+  <meta property="og:title" content="解决macOS的间歇性卡死/彩虹圈问题" />
   
   <meta property="og:description" content="我使用M1 macbook air，系统为macOS Venture，使用过程中，会间歇性遭遇到系统卡死问题。出现问题时，各app均无法控制，键盘输入卡顿显著，鼠标持续呈彩虹圈，但已打开的app（如正在播放的音乐等）仍能正常工作。重启系统后问题解决，但过一段时间（1～2天后）问题又会再度出现。 经过">
   
   <meta property="og:url" content="https://horiejunkie.github.io/article/77b3be67/" />
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="解决macOS的间歇性卡死问题">
+  <meta name="twitter:title" content="解决macOS的间歇性卡死/彩虹圈问题">
   
   <meta name="twitter:description" content="我使用M1 macbook air，系统为macOS Venture，使用过程中，会间歇性遭遇到系统卡死问题。出现问题时，各app均无法控制，键盘输入卡顿显著，鼠标持续呈彩虹圈，但已打开的app（如正在播放的音乐等）仍能正常工作。重启系统后问题解决，但过一段时间（1～2天后）问题又会再度出现。 经过">
   
@@ -198,8 +198,8 @@
 </div>
 
         <div class="trans">
-            <h2>解决macOS的间歇性卡死问题</h2>
-  <p>Updated: Jul 18, 2023<br>Released: Jun 10, 2023<br>Tags: <a class="classtest-link" href="/tags/macOS/" rel="tag">macOS</a></p>
+            <h2>解决macOS的间歇性卡死/彩虹圈问题</h2>
+  <p>Updated: 7/28/2023<br>Released: 6/10/2023<br>Tags: <a class="classtest-link" href="/tags/macOS/" rel="tag">macOS</a>, <a class="classtest-link" href="/tags/technology/" rel="tag">technology</a></p>
 
   <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95"><span class="toc-text">解决方法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%BA%E7%8E%B0%E5%8D%A1%E6%AD%BB%E6%97%B6%EF%BC%8C%E6%9D%80%E6%8E%89%E8%BE%93%E5%85%A5%E6%B3%95%E8%BF%9B%E7%A8%8B"><span class="toc-text">出现卡死时，杀掉输入法进程</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%8E%E4%BB%BB%E5%8A%A1%E7%9B%91%E8%A7%86%E5%99%A8%E6%9D%80%E6%8E%89%E8%BF%9B%E7%A8%8B"><span class="toc-text">从任务监视器杀掉进程</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%8E%E7%BB%88%E7%AB%AF%E6%9D%80%E6%8E%89%E8%BF%9B%E7%A8%8B"><span class="toc-text">从终端杀掉进程</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%A2%84%E8%AE%BE%E6%9D%80%E8%BF%9B%E7%A8%8B%E8%84%9A%E6%9C%AC"><span class="toc-text">预设杀进程脚本</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%84%E8%AE%BE%E5%AE%9A%E6%97%B6%E6%9D%80%E8%84%9A%E6%9C%AC%E4%BB%BB%E5%8A%A1"><span class="toc-text">预设定时杀脚本任务</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E5%8F%AF%E8%83%BD%E6%9C%89%E6%95%88%E7%9A%84%E6%96%B9%E6%B3%95"><span class="toc-text">其他可能有效的方法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%B8%A3%E8%B0%A2"><span class="toc-text">鸣谢</span></a></li></ol>
 
@@ -286,7 +286,7 @@
     var disqus_config = function() {
       this.page.url = 'https://horiejunkie.github.io/article/77b3be67/index.html';
       this.page.identifier = 'article/77b3be67/index.html';
-      this.page.title = '解决macOS的间歇性卡死问题';
+      this.page.title = '解决macOS的间歇性卡死/彩虹圈问题';
     };
 
     var is_disqus_loaded = false;
