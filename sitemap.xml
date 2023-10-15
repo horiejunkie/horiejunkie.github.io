@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://horiejunkie.github.io/article/77b3be67/</loc>
+    <loc>https://horiejunkie.github.io/About/index.html</loc>
     
     <lastmod>2023-07-28</lastmod>
     
@@ -20,7 +20,16 @@
   </url>
   
   <url>
-    <loc>https://horiejunkie.github.io/About/index.html</loc>
+    <loc>https://horiejunkie.github.io/article/1117/</loc>
+    
+    <lastmod>2023-07-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://horiejunkie.github.io/article/77b3be67/</loc>
     
     <lastmod>2023-07-28</lastmod>
     
@@ -76,7 +85,7 @@
 
   <url>
     <loc>https://horiejunkie.github.io/</loc>
-    <lastmod>2023-07-28</lastmod>
+    <lastmod>2023-10-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -84,56 +93,56 @@
   
   <url>
     <loc>https://horiejunkie.github.io/tags/life/</loc>
-    <lastmod>2023-07-28</lastmod>
+    <lastmod>2023-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://horiejunkie.github.io/tags/technology/</loc>
-    <lastmod>2023-07-28</lastmod>
+    <lastmod>2023-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://horiejunkie.github.io/tags/macOS/</loc>
-    <lastmod>2023-07-28</lastmod>
+    <lastmod>2023-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://horiejunkie.github.io/tags/study/</loc>
-    <lastmod>2023-07-28</lastmod>
+    <lastmod>2023-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://horiejunkie.github.io/tags/Japanese/</loc>
-    <lastmod>2023-07-28</lastmod>
+    <lastmod>2023-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://horiejunkie.github.io/tags/mathematics/</loc>
-    <lastmod>2023-07-28</lastmod>
+    <lastmod>2023-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://horiejunkie.github.io/tags/finance/</loc>
-    <lastmod>2023-07-28</lastmod>
+    <lastmod>2023-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://horiejunkie.github.io/tags/PhD/</loc>
-    <lastmod>2023-07-28</lastmod>
+    <lastmod>2023-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
