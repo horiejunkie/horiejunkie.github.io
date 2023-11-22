@@ -6,7 +6,7 @@
   <link href="https://horiejunkie.github.io/atom.xml" rel="self"/>
   
   <link href="https://horiejunkie.github.io/"/>
-  <updated>2023-10-27T14:38:00.000Z</updated>
+  <updated>2023-11-11T17:03:00.000Z</updated>
   <id>https://horiejunkie.github.io/</id>
   
   <author>
@@ -17,19 +17,69 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>杂谈 - 换驾照遇到有趣的人</title>
+    <link href="https://horiejunkie.github.io/article/44050/"/>
+    <id>https://horiejunkie.github.io/article/44050/</id>
+    <published>2023-11-11T17:03:00.000Z</published>
+    <updated>2023-11-11T17:03:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>昨天考完换驾照考试等制证，遇到了一起等的一口粤普、发油锃亮、西装笔挺的老哥，仿佛是从黄金时代港片穿越过来的，多少有点喜欢周润发。老哥英语流利，精气神极好，我一开始以为是香港过来的三十多岁的商人，后来得知是广东那儿的，而且已经四十多了。</p><p>老哥表达欲旺盛，说自己英国留过学，美国刷过盘子，澳大利亚发过财，中东谈过生意。他到美国点第一碗面条，碗有他头两个大，够他吃三天。他说自己谈过的女朋友数不过来，到哪谈哪的女朋友，没有一个超过三个月；他人生发达过也落魄过，他讨厌循规蹈矩的人生，到哪就从哪重新开启，这次是来日本重启了。</p><p>（🥲要不是我是男的，听到这我铁以为是什么杀猪盘。）</p><p>他继续说他讨厌循规蹈矩的人生。他说很多人的人生就是一个圆，圆走到头人生就圆满了；他的人生则是一个圆接一个圆，乱得跟麻花似的，但他能圆满很多回。他九个月前来到日本，一句日语不会，现在上语言学校，准备两年毕业后去上旅游的专门学校，然后在日本当导游。我说你当导游能挣到钱吗，他说他早不在乎钱了。他在我面前兴奋地划圆，然后跟我怒斥东京人待人冷漠，没人气儿。</p><p>“这儿吃喝住行都好，就是人太冷漠。你呆久了就知道了，你得适应。我反正适应不了。我准备以后去大阪那找工作，听说那儿才是真日本。”</p><p>写到这我应该写老哥临走前说了什么令我醍醐灌顶的话，然后留下一个潇洒的背影消失在东京电车站的人潮里。但实际上是我听了一下午确实也听烦了，到了秋叶原下车去逛了四层楼高的成人用品店。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;昨天考完换驾照考试等制证，遇到了一起等的一口粤普、发油锃亮、西装笔挺的老哥，仿佛是从黄金时代港片穿越过来的，多少有点喜欢周润发。老哥英语流利，精气神极好，我一开始以为是香港过来的三十多岁的商人，后来得知是广东那儿的，而且已经四十多了。&lt;/p&gt;
+&lt;p&gt;老哥表达欲旺盛，说自己英</summary>
+      
+    
+    
+    
+    
+    <category term="life" scheme="https://horiejunkie.github.io/tags/life/"/>
+    
+    <category term="Zatsudan" scheme="https://horiejunkie.github.io/tags/Zatsudan/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>杂谈 - 国产化</title>
+    <link href="https://horiejunkie.github.io/article/23725/"/>
+    <id>https://horiejunkie.github.io/article/23725/</id>
+    <published>2023-11-11T02:58:00.000Z</published>
+    <updated>2023-11-11T02:58:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>看到国产化我就想起好笑的事。</p><p>之前行业产品早几年已经实现100%的<strong>国产化</strong>了。是什么概念呢？就是产品上使用的任何一个的组件、其所有组成部分，都有能查到源头的、有认证资历的厂家。哪怕一颗螺栓，它的原材料、加工每一道工序的时间、操作人，都能查到。</p><p>是不是很大胆？所有厂家都有准入资历保证产品质量，有什么故障都能追根溯源，从材料到加工，任何过程记录在案、精确到秒，生产责任机制不就<strong>压紧压实</strong>了吗？</p><p>这种机制的映衬下，某些事显得格外好笑。我这次说一个螺栓上的事情。</p><p>某批螺栓合同到期，换了一家供应商。我们这边的产品一开始组装，工人就反映问题——螺栓上紧之后就不能松开了，咬死了。工人原话是：五金店三块钱两把的螺栓都比这批玩意儿（单个采购价20元上下，价格差了一百倍）好使。</p><p>技术部门反应及时，连天连夜开大会，研讨组装步骤，重复组装过程，最后得到重要结论：这批螺栓有问题。于是发函给上游供应商。对方反应也很及时，连天连夜开大会，研讨加工步骤，重复加工过程。每次反馈提交十几页的报告，十个领导签字，保证技术方案有效，更改措施到位。</p><p>历时三个月，上游改进了三次工艺，上交三批螺栓，但只要在我们这一拧，就咬死，一拧就咬死。工人拧得骂娘，我们技术查得骂娘，上游供应商改得骂娘。</p><p>最后怎么解决的？在拧螺栓的时候在内外螺纹抹润滑油，拆螺栓的时候也抹。就这么解决的。好像没有解决，但其实解决了。很幽默的解决方法。</p><p>你说为什么不把技术原因查到位？因为工期是死的，合同是死的，换厂家是不可能的，延期交付也是不可能的。如果不是工人使多大力都拧不下来，上游给的解决措施可能是亲亲建议您这边用大点力使劲拧呢（实际上前两次报告里真的这么建议了）。</p><p>所以我不知道别的行业的国产化是什么意思，在我们这100%国产化的意思其实是100%可追责，或者说100%有人顶锅。只要100%供应商是国内的，就是100%国产化。你说加工螺栓的数控加工中心都是进口的？那想换国产也得有的换吧。至于100%的锅该不该这个人顶，顶了之后能不能解决问题，是次要的事情。成本、质量，则是连考虑都不用考虑的。</p><p>我工作时间不长，也就一年多时间。这种幽默的事情我遇到的、耳闻的，可以说数不胜数，而这个<strong>责任压紧压实</strong>一般是落到最下游的责任人身上的，也就是工人身上。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;看到国产化我就想起好笑的事。&lt;/p&gt;
+&lt;p&gt;之前行业产品早几年已经实现100%的&lt;strong&gt;国产化&lt;/strong&gt;了。是什么概念呢？就是产品上使用的任何一个的组件、其所有组成部分，都有能查到源头的、有认证资历的厂家。哪怕一颗螺栓，它的原材料、加工每一道工序的时间、操作</summary>
+      
+    
+    
+    
+    
+    <category term="life" scheme="https://horiejunkie.github.io/tags/life/"/>
+    
+    <category term="Zatsudan" scheme="https://horiejunkie.github.io/tags/Zatsudan/"/>
+    
+  </entry>
+  
+  <entry>
     <title>杂谈 - 筑波的初印象</title>
     <link href="https://horiejunkie.github.io/article/17889/"/>
     <id>https://horiejunkie.github.io/article/17889/</id>
     <published>2023-10-27T14:38:00.000Z</published>
     <updated>2023-10-27T14:38:00.000Z</updated>
     
-    <content type="html"><![CDATA[<p>筑波这地方挺神奇的，学校边上一圈都是很符合日本固有印象的农村样貌（图1和2，两层楼高的小住宅楼，偶尔有几个高层公寓，楼中间都是一辆车过都不嫌宽的小路，感觉尽头随时会有叼着面包跑出来的高中生，连主干道都只有双向四车道…</p><img src="/article/undefined/1.jpg" class=""><img src="/article/undefined/2.jpg" class=""><p>但只要步行20分钟，隔壁市类似新区的地方，建筑风格就一整个不一样。一眼能望到几公里外，几乎没啥高楼，所有商场都是足球场一样的大平层，还配着比足球场还大的停车场。整个区域更像是固有印象里欧美的农村，一对夫妻带仨孩子，一周开车去购物两次那种。虽然路还是一样窄。</p><img src="/article/undefined/3.jpg" class=""><img src="/article/undefined/4.jpg" class=""><p>听说筑波已经是日本出生率数一数二高的区域，而这个新的区域也是最近几年新规划出来的，不知道以后日本的城市规划会不会都变成这个风格。</p>]]></content>
+    <content type="html"><![CDATA[<p>筑波这地方挺神奇的，学校边上一圈都是很符合日本固有印象的农村样貌（图1和2，两层楼高的小住宅楼，偶尔有几个高层公寓，楼中间都是一辆车过都不嫌宽的小路，感觉尽头随时会有叼着面包跑出来的高中生，连主干道都只有双向四车道…</p><img src="/article/17889/1.jpg" class=""><img src="/article/17889/2.jpg" class=""><p>但只要步行20分钟，隔壁市类似新区的地方，建筑风格就一整个不一样。一眼能望到几公里外，几乎没啥高楼，所有商场都是足球场一样的大平层，还配着比足球场还大的停车场。整个区域更像是固有印象里欧美的农村，一对夫妻带仨孩子，一周开车去购物两次那种。虽然路还是一样窄。</p><img src="/article/17889/3.jpg" class=""><img src="/article/17889/4.jpg" class=""><p>听说筑波已经是日本出生率数一数二高的区域，而这个新的区域也是最近几年新规划出来的，不知道以后日本的城市规划会不会都变成这个风格。</p>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;筑波这地方挺神奇的，学校边上一圈都是很符合日本固有印象的农村样貌（图1和2，两层楼高的小住宅楼，偶尔有几个高层公寓，楼中间都是一辆车过都不嫌宽的小路，感觉尽头随时会有叼着面包跑出来的高中生，连主干道都只有双向四车道…&lt;/p&gt;
-&lt;img src=&quot;/article/undef</summary>
+&lt;img src=&quot;/article/17889</summary>
       
     
     
@@ -38,6 +88,8 @@
     <category term="life" scheme="https://horiejunkie.github.io/tags/life/"/>
     
     <category term="Japan" scheme="https://horiejunkie.github.io/tags/Japan/"/>
+    
+    <category term="Zatsudan" scheme="https://horiejunkie.github.io/tags/Zatsudan/"/>
     
   </entry>
   
@@ -63,6 +115,8 @@
     <category term="life" scheme="https://horiejunkie.github.io/tags/life/"/>
     
     <category term="Japan" scheme="https://horiejunkie.github.io/tags/Japan/"/>
+    
+    <category term="Zatsudan" scheme="https://horiejunkie.github.io/tags/Zatsudan/"/>
     
   </entry>
   
